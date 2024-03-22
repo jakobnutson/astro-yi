@@ -38,12 +38,18 @@ dependencies:
   dayjs:
     specifier: ^1.11.10
     version: 1.11.10
+  dep:
+    specifier: ^0.18.2
+    version: 0.18.3
   lodash:
     specifier: ^4.17.21
     version: 4.17.21
   mdast-util-to-string:
     specifier: ^4.0.0
     version: 4.0.0
+  pnpm:
+    specifier: ^8.15.5
+    version: 8.15.5
   reading-time:
     specifier: ^1.5.0
     version: 1.5.0
@@ -1727,6 +1733,25 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /dep@0.18.3:
+    resolution: {integrity: sha512-fvN3Iwj2AcI9NQa/UzJybcRS0/moLvAtI1tBkxDYIzJ2zS3j+JisB/j+//ZTy9iIgjhFWB7yDZFS+TwDqP+djQ==}
+    hasBin: true
+    dev: false
+    bundledDependencies:
+      - fs-extra
+      - gunzip-maybe
+      - node-gyp
+      - npm-package-arg
+      - npm-path
+      - promise-each
+      - request
+      - semver
+      - tar-fs
+      - tar-stream
+      - update-notifier
+      - which
+      - yargs
 
   /dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
@@ -3565,6 +3590,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: false
+
+  /pnpm@8.15.5:
+    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /postcss-import@15.1.0(postcss@8.4.36):
