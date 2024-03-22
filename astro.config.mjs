@@ -22,7 +22,7 @@ function customRehypeLazyLoadImage() {
 
 export default defineConfig({
   site: 'https://jakobnutson.github.io',
-  base: 'astro-yi',
+  base: '/astro-yi',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers()],
     themes: ["github-dark", "github-light"],
