@@ -17,11 +17,11 @@
  */
 export const site = {
   title: 'Astro Theme Yi', // required
-  favicon: '/favicon.svg', // required
+  favicon: '/astro-yi//favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "Astro-Yi", // required
-  avatar: '/avatar.png', // required
-  motto: 'Actions speak louder than words.',
+  avatar: '/astro-yi//FT.jpg', // required
+  motto: "I'm Farhat Aghayev GRC Practitioner, ITIL 4 Managing Professional.",
   url: 'https://astro-yi-nu.vercel.app',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -50,27 +50,27 @@ export const categories = [
   {
     name: "Blog",
     iconClass: "ri-draft-line",
-    href: "/blog/1",
+    href: "/astro-yi/blog/1",
   },
   {
     name: "Feed",
     iconClass: "ri-lightbulb-flash-line",
-    href: "/feed/1",
+    href: "/astro-yi/feed/1",
   },
   {
     name: "Archive",
     iconClass: "ri-archive-line",
-    href: "/archive/1",
+    href: "/astro-yi/archive/1",
   },
   {
     name: "Message",
     iconClass: "ri-chat-1-line",
-    href: "/message",
+    href: "/astro-yi//message",
   },
   {
     name: "Search",
     iconClass: "ri-search-line",
-    href: "/search",
+    href: "/astro-yi/search",
   },
   {
     name: "More",
@@ -80,12 +80,12 @@ export const categories = [
       {
         name: 'About',
         iconClass: 'ri-information-line',
-        href: '/about',
+        href: '/astro-yi/about',
       },
       {
         name: 'Friends',
         iconClass: 'ri-user-5-line',
-        href: '/friends',
+        href: '/astro-yi/friends',
         target: '_self',
       },
     ]
