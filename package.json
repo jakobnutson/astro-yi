@@ -24,6 +24,7 @@
     "dep": "^0.18.2",
     "lodash": "^4.17.21",
     "mdast-util-to-string": "^4.0.0",
+    "pnpm": "^8.15.5",
     "reading-time": "^1.5.0",
     "remixicon": "^4.2.0",
     "solid-js": "^1.8.15",
