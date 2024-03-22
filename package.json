@@ -32,9 +32,8 @@
     "tocbot": "^4.25.0",
     "typescript": "^5.4.2",
     "unist-util-visit": "^5.0.0",
-    "viewerjs": "^1.11.6",
-    "packageManager": "^8.15.5"
-
+    "viewerjs": "^1.11.6"
+    
   },
   "devDependencies": {
     "sass": "^1.72.0"
