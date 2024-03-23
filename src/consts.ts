@@ -16,11 +16,11 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
-  favicon: '/astro-yi//favicon.svg', // required
+  title: 'Aghayev Farhat', // required
+  favicon: '/astro-yi/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
   author: "Astro-Yi", // required
-  avatar: '/astro-yi//FT.jpg', // required
+  avatar: '/astro-yi/FT.jpg', // required
   motto: "I'm Farhat Aghayev GRC Practitioner, ITIL 4 Managing Professional.",
   url: 'https://astro-yi-nu.vercel.app',
   recentBlogSize: 5,
