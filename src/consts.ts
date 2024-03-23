@@ -19,10 +19,10 @@ export const site = {
   title: 'Aghayev Farhat', // required
   favicon: '/astro-yi/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
+  author: "Aghayev.F", // required
   avatar: '/astro-yi/FT.jpg', // required
   motto: "I'm Farhat Aghayev GRC Practitioner, ITIL 4 Managing Professional.",
-  url: 'https://astro-yi-nu.vercel.app',
+  url: 'https://jakobnutson.github.io/astro-yi',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
