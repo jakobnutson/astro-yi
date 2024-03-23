@@ -27,7 +27,7 @@ const {title, date, category, tags, lastModified = '', readingTime = {}} = Astro
       category && dealLabel(category).map((categoryName) => (
         <div class="divider-vertical"/>
         <i class="ri-folder-3-line"/>
-        <a href={"/category/" + categoryName} class="text-wrap break-all  hover:text-skin-active cursor-pointer">{categoryName}</a>
+        <a href={"/astro-yi/category/" + categoryName} class="text-wrap break-all  hover:text-skin-active cursor-pointer">{categoryName}</a>
       ))
     }
 
@@ -36,7 +36,7 @@ const {title, date, category, tags, lastModified = '', readingTime = {}} = Astro
       tags && dealLabel(tags).map((tagName) => (
         <div class="divider-vertical"/>
         <i class="ri-price-tag-3-line"/>
-        <a href={"/tags/" + tagName} class="text-wrap break-all hover:text-skin-active cursor-pointer">{tagName}</a>
+        <a href={"/astro-yi/tags/" + tagName} class="text-wrap break-all hover:text-skin-active cursor-pointer">{tagName}</a>
       ))
     }
 

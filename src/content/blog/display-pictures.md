@@ -14,20 +14,20 @@ date: 2024-03-21
 ### Show Local Pictures
 
 ```md
-![](/avatar.png)
+![](/astro-yi/avatar.png)
 ```
 
-![](/avatar.png)
+![](/astro-yi/avatar.png)
 
 ### Customize Local Images
 
 Use html, set`style="width: 200px;"`
 
 ```html
-<img src="/spinner.gif" data-src="/avatar.png" style="width:200px;">
+<img src="/astro-yi/spinner.gif" data-src="/astro-yi/avatar.png" style="width:200px;">
 ```
 
-<img src="/spinner.gif" data-src="/avatar.png" style="width:200px;">
+<img src="/astro-yi/spinner.gif" data-src="/astro-yi/avatar.png" style="width:200px;">
 
 ### One row, two columns.
 
@@ -35,13 +35,13 @@ Use html, set`style="width: 200px;"`
 
 <div class="image-cols-2">
   <img src="https://share.cirry.cn/images/astro-yi/pexels-photo-8536415.jpeg">
-  <img src="/spinner.gif" data-src="https://share.cirry.cn/images/astro-yi/pexels-kyle-miller-20582700.jpg">
+  <img src="/astro-yi/spinner.gif" data-src="https://share.cirry.cn/images/astro-yi/pexels-kyle-miller-20582700.jpg">
 </div>
 ```
 
 <div class="image-cols-2">
   <img src="https://share.cirry.cn/images/astro-yi/pexels-photo-8536415.jpeg">
-  <img src="/spinner.gif" data-src="https://share.cirry.cn/images/astro-yi/pexels-kyle-miller-20582700.jpg" >
+  <img src="/astro-yi/spinner.gif" data-src="https://share.cirry.cn/images/astro-yi/pexels-kyle-miller-20582700.jpg" >
 </div>
 
 
