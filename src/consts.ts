@@ -120,6 +120,11 @@ export const infoLinks = [
     icon: 'ri-rss-fill',
     name: 'rss',
     outlink: 'https://astro-yi-nu.vercel.app/rss.xml',
+  },
+  {
+    icon: 'ri-linkedin-fill',
+    name: 'linkedin',
+    outlink: 'https://www.linkedin.com/in/farhat-aghayev/',
   }
 ]
 
