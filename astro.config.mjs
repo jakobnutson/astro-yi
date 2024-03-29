@@ -25,6 +25,12 @@ export default defineConfig({
   base: '/astro-yi',
   integrations: [sitemap(), tailwind(), solid(), expressiveCode({
     plugins: [pluginLineNumbers()],
+     partytown({
+      // Adds dataLayer.push as a forwarding-event.
+      config: {
+        forward: ["dataLayer.push"],
+      },
+    }),
     themes: ["github-dark", "github-light"],
     styleOverrides: {
       codeFontFamily: "jetbrains-mono",
